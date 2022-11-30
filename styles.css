@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+
+* {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 40px;
+    text-decoration: underline;
+  }
+  
+  h3 {
+    margin: 0;
+    color:white;
+  }
+  
+  .year{
+    margin: 75px;
+  }
+
+  
+  .semester, .sidebar {
+    display:inline-block;
+    width: 450px;
+    margin: 0 10px 0 10px;
+    border: 2px solid black;
+    padding: 10px;
+  }
+
+  .sidebar{
+    z-index: 1;
+    top:0;
+    left: 0;
+    padding:0;
+    width: 275px;
+    position:fixed;
+    height: 100vh;
+  }
+  
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px 112px 10px ;
+    width: 200px;
+    list-style: none;
+    border: 1px solid black;
+  }
+
+  .semester{
+    background-color: #333;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.course{
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: move;
+}
+
+.draggable.dragging {
+    opacity: .5;
+}
